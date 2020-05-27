@@ -1,0 +1,101 @@
+
+    <style>
+    
+    *{
+    }
+   
+        body {
+            background-color: #dae1e7;
+            font: 1em "Fira Sans", sans-serif; 
+            
+            
+        }   
+        
+                
+        h3{
+          color: #00909e;  
+            
+        }
+        
+        hr {
+            
+            border-style: none;
+            border-top-style: dotted;
+            border-color: grey;
+            border-width: 5px;
+            width: 5%;
+        } 
+        
+        
+       /********************************/
+       
+        .pengalaman{
+           
+            border-collapse:collapse;
+            margin: 25px 0;
+            font-size: 0.9em;
+            min-width: 400px;
+            border-radius: 5px 5px 0 0;
+            font: 1em "Roboto", sans-serif
+        }
+        
+        .pengalaman tbody tr{
+            border-bottom: 1px solid white;
+            
+        }
+        .pengalaman tbody:last-of-type{
+            border-bottom: 2px solid #009879;
+        }
+        
+        .pengalaman th{
+            background-color: #009879;
+            color: white;
+            text-align: left;
+            font-weight: bold;
+            padding: 12px 15px;
+        }
+        
+        .pengalaman td{
+            padding: 12px 15px;
+        }
+        
+        .matkul{
+           
+            border-collapse:collapse;
+            margin: 25px 0;
+            font-size: 0.9em;
+            min-width: 400px;
+            border-radius: 5px 5px 0 0;
+            padding: 60px;
+            font: 1em "Calibri", sans-serif
+        }
+        
+       
+        .matkul tbody tr{
+            border-bottom: 1px solid white;
+            
+        }
+        .matkul tbody:last-of-type{
+            border-bottom: 2px solid #27496d;
+        }
+        
+        .matkul th{
+            background-color: #27496d;
+            color: white;
+            text-align: left;
+            font-weight: bold;
+            padding: 12px 15px;
+            
+        }
+        
+        .matkul td{
+            padding: 12px 15px;
+        }
+        
+        #nama{
+           color: #142850;
+           font: 2em "Arial", serif;
+           font-weight: bold;
+           
+        }
+    </style>
